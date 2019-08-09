@@ -6,15 +6,18 @@ public class ConstrChain {
 	
 	ConstrChain() {
 		this("",0);
-		System.out.println("Superclass no arg constructor");
+		System.out.println("Super class no-arg");
+		
 	}
 	ConstrChain(String name,int number) {
-		System.out.println("Two argument superclass constructor");
 		this.name=name;
 		this.number=number;
+		System.out.println("Super class two arg constructor");
 	}
 	public static void main(String[] args) {
-		ConstrChain ch=new ConstrChain();
-		ChainChild CC=new ChainChild();
+		ConstrChain ch= new ConstrChain();
+		ConstrChain ch2=new ChainChild();
+		ConstrChain ch3=new ChainChild("John",5,'A');
 	}
 }
+
