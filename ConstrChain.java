@@ -6,8 +6,10 @@ public class ConstrChain {
 	
 	ConstrChain() {
 		this("",0);
+		System.out.println("Superclass no arg constructor");
 	}
 	ConstrChain(String name,int number) {
+		System.out.println("Two argument superclass constructor");
 		this.name=name;
 		this.number=number;
 	}
