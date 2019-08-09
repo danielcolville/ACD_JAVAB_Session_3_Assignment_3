@@ -1,4 +1,4 @@
-package sesssion3;
+package session3;
 
 public class ConstrChain {
 	String name;
@@ -12,6 +12,7 @@ public class ConstrChain {
 		this.number=number;
 	}
 	public static void main(String[] args) {
-		
+		ConstrChain ch=new ConstrChain();
+		ChainChild CC=new ChainChild();
 	}
 }
